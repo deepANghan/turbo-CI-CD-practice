@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <h1>This is Merchan't app</h1>
+      <p>this one is added</p>
     </div>
   );
 }
