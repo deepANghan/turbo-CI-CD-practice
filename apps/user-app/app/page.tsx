@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <h1>this is the user's app</h1>
+      <p>para in user's app</p>
     </div>
   );
 }
