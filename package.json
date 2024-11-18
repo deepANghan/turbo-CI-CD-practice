@@ -2,6 +2,7 @@
   "name": "turbo_repo_test",
   "private": true,
   "scripts": {
+    "start-user-app": "cd ./apps/user-app && npm run start",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
