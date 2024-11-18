@@ -27,4 +27,4 @@ jobs:
                         tags: startest/next_ci-cd_test
                 
                 - name: verify push image
-                  run: docker pull startest/next_ci-cd_test
+                  run: docker pull startest/next_ci-cd_test:lastest
