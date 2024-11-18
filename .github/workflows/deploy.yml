@@ -3,7 +3,7 @@ name: create docker image on code push
 on:
     push:
         branches:
-                - master
+                - main
 
 jobs:
     build-and-push:
@@ -24,7 +24,7 @@ jobs:
                         context: .
                         file: ./Docker/Dockerfile.user
                         push: true
-                        tags: next_ci-cd_test
+                        tags: startest/next_ci-cd_test
                 
                 - name: verify push image
                   run: docker pull startest/next_ci-cd_test

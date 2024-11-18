@@ -23,6 +23,7 @@ export default function Home() {
     <div className={styles.page}>
       <h1>this is the user's app</h1>
       <p>para in user's app</p>
+      <span>for docker test</span>
     </div>
   );
 }
